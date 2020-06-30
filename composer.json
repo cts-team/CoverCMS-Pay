@@ -19,8 +19,8 @@
   "minimum-stability": "stable",
   "require": {
     "php": "^7.1",
-    "symfony/http-foundation": "^4.0 || ^5.0.7",
-    "symfony/event-dispatcher": "^4.0 || ^5.0.7",
+    "symfony/http-foundation": "^5.0.7",
+    "symfony/event-dispatcher": "^5.0.7",
     "ext-json": "*",
     "covercms/support": "^0.0.1",
     "ext-openssl": "*",
