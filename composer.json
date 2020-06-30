@@ -1,0 +1,37 @@
+{
+  "name": "covercms/pay",
+  "type": "library",
+  "description": "CoverCMS pay library",
+  "keywords": [
+    "covercms",
+    "php",
+    "pay",
+    "alipay",
+    "Wechat pay"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mr moon",
+      "email": "createsmart@163.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.1",
+    "symfony/http-foundation": "^4.0 || ^5.0.7",
+    "symfony/event-dispatcher": "^4.0 || ^5.0.7",
+    "ext-json": "*",
+    "covercms/support": "^0.0.1",
+    "ext-openssl": "*",
+    "ext-ctype": "*",
+    "ext-bcmath": "*",
+    "ext-libxml": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "CoverCMS\\Pay\\": "src/"
+    }
+  }
+}
