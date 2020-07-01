@@ -18,8 +18,8 @@ use Exception;
 /**
  * Class Pay
  * @package CoverCMS\Pay
- * @method static AliPay alipay(array $config) 支付宝
- * @method static WeChat wechat(array $config) 微信
+ * @method static AliPay aliPay(array $config) 支付宝
+ * @method static WeChat weChat(array $config) 微信
  */
 class Pay
 {
